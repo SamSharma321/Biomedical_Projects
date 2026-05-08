@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['emg_protocol.py'],
+    ['wearable_visualizer.py'],
     pathex=[],
     binaries=[],
     datas=[('data', 'data')],

@@ -12,7 +12,7 @@ The work spans ECG, EMG, IMU, fNIRS, optical pulse sensing, sleep monitoring, dy
 | Sensor drivers | Register-level drivers for biomedical AFEs, IMUs, optical sensors, and battery measurement paths |
 | BLE applications | Custom GATT services, notification packetizers, runtime configuration characteristics, battery/device services |
 | Hardware integration | Board pin maps, SPI/TWI configuration, PCB design images, assembled board photos, deployable hex artifacts |
-| Visualization | GUI screenshots and demo videos for live ECG, IMU, fNIRS, BLE UUID, and PPG data views |
+| Visualization | Python BLE visualizer, GUI screenshots, and demo videos for live ECG, IMU, fNIRS, BLE UUID, and PPG data views |
 | Optimization work | BLE packet batching, connection-aware streaming, sample queues, timer scheduling, FIFO draining, and low-power measurement paths |
 
 ## Supported Driver Part Numbers
@@ -44,6 +44,7 @@ The work spans ECG, EMG, IMU, fNIRS, optical pulse sensing, sleep monitoring, dy
 
 | Project | Main hardware / drivers | What it demonstrates |
 | --- | --- | --- |
+| [Python BLE Wearable Visualizer](Python%20Visualizer/README.md) | `PyQt5`, `pyqtgraph`, `bleak`, custom BLE UUID decoders | Live desktop visualization, BLE diagnostics, CSV logging, ADS1299/IMU/PPG/AS7341 stream decoding |
 | [12-Lead 10-Electrode ECG v1](nRF_Driver_Projects/12_Lead_10_ELectrode_ECG_v1/README.md) | `ADS1299`, `ICM20649`, `nRF52` | Research-grade ECG acquisition with synchronized IMU telemetry and BLE streaming |
 | [12-Lead ECG v2](nRF_Driver_Projects/12_Lead_ECG_v2/ADS1299_ICM20948/README.md) | `ADS1299`, `ICM20948`, `nRF52` | Updated ECG + IMU firmware with banked IMU register handling and readback validation |
 | [Dysphagia Wearable Sensor Firmware](nRF_Driver_Projects/Dysphagia/README.md) | `ADS1291/2`, dual `ICM20948`, `nRF52` | Swallowing research prototype with biopotential sensing, dual IMU streams, RAM buffering, and BLE visualization |
@@ -58,6 +59,9 @@ The work spans ECG, EMG, IMU, fNIRS, optical pulse sensing, sleep monitoring, dy
 ```text
 Biomedical_Projects/
   README.md
+  Python Visualizer/
+    README.md
+    wearable_visualizer.py
   nRF_Driver_Projects/
     12_Lead_10_ELectrode_ECG_v1/
     12_Lead_ECG_v2/
@@ -75,10 +79,16 @@ Biomedical_Projects/
 | --- | --- |
 | MCU platform | Nordic nRF52 family, including nRF52832-oriented BLE designs |
 | SDK / stack | nRF5 SDK 17.1.0 with S132 SoftDevice-style BLE peripheral applications |
-| Language | Embedded C |
+| Language | Embedded C and Python |
 | Sensor buses | SPI for ADS biopotential AFEs; TWI/I2C for IMU and optical sensors |
 | Build assets | SEGGER Embedded Studio, GCC, IAR, and Keil project files are retained where available |
-| Output artifacts | Source code, configuration headers, project files, hex builds, PCB images, board photos, and GUI/demo media |
+| Output artifacts | Source code, configuration headers, project files, hex builds, PCB images, board photos, Python visualization tools, and GUI/demo media |
+
+## Visualization Tooling
+
+The [Python BLE Wearable Visualizer](Python%20Visualizer/README.md) is the desktop companion app for lab validation. It connects to supported BLE peripherals, discovers notify characteristics, plots ADS1299 ECG/EMG channels, opens dedicated IMU/PPG/AS7341 views, reports BLE link diagnostics, and logs active sessions to CSV.
+
+Supported stream families include ADS1299 channel UUIDs (`EEF1`-`EEF8` / `EFF1`-`EFF8`), IMU streams (`1CF1`-`1CF4`), MAX30102 PPG streams (`AEC1` / `AEC2`), AS7341 spectral streams (`1526` / `1527`), AS7341 LED configuration (`1525`), and BLE link metrics (`BFEE`).
 
 ## Engineering Areas Demonstrated
 
