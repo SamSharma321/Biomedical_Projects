@@ -23,15 +23,21 @@ BLE firmware for a sleep-monitoring prototype combining biopotential, motion, an
 ## Project Media
 
 <div align="center">
-  <img src="../image%20%281%29.jpeg" alt="Sleep prediction assembled PCB front" width="32%">
-  <img src="../image.jpeg" alt="Sleep prediction optical sensor board" width="48%">
+  <img src="../image%20%281%29.jpeg" alt="Sleep prediction assembled PCB front" width="70%">
   <br>
-  <sub><b>Assembled hardware.</b> Sleep-prediction wearable PCB showing the nRF52 controller, sensing hardware, MAX30102 optical area, and wiring.</sub>
+  <sub><b>Assembled hardware.</b> Sleep-prediction wearable PCB showing the nRF52 controller and sensing hardware.</sub>
   <br><br>
-  <img src="../image%20%287%29.png" alt="Sleep prediction PCB render" width="48%">
-  <img src="../image%20%288%29.png" alt="Sleep prediction routed PCB layout" width="48%">
+  <img src="../image.jpeg" alt="Sleep prediction optical sensor board" width="70%">
   <br>
-  <sub><b>PCB design.</b> Board render and routed layout for the multimodal sleep-prediction wearable.</sub>
+  <sub><b>Optical sensor board.</b> MAX30102 sensing area and wiring on the sleep-prediction prototype.</sub>
+  <br><br>
+  <img src="../image%20%287%29.png" alt="Sleep prediction PCB render" width="70%">
+  <br>
+  <sub><b>PCB render.</b> Board render for the multimodal sleep-prediction wearable.</sub>
+  <br><br>
+  <img src="../image%20%288%29.png" alt="Sleep prediction routed PCB layout" width="70%">
+  <br>
+  <sub><b>PCB routed layout.</b> Routed layout for the sleep-prediction wearable board.</sub>
 </div>
 
 [PPG live view demo](../PPG%20Live%20View%20%28MAX30102%29%20_%20Freq_%20100.0%20Hz_ch%202026-05-04%2015-26-00.mp4) - MAX30102 PPG live-view GUI demo at 100 Hz, showing optical waveform streaming over BLE.

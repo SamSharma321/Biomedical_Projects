@@ -23,7 +23,7 @@ BLE firmware for a dysphagia research prototype combining ADS1291/2 biopotential
 ## Project Media
 
 <div align="center">
-  <img src="image%20%2813%29.png" alt="Dysphagia wearable prototype board" width="42%">
+  <img src="image%20%2813%29.png" alt="Dysphagia wearable prototype board" width="70%">
   <br>
   <sub><b>Prototype hardware.</b> Dysphagia wearable PCB with connected sensing leads for firmware and signal-acquisition testing.</sub>
 </div>

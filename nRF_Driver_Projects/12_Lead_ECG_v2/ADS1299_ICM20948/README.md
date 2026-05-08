@@ -23,12 +23,15 @@ Second-generation BLE firmware for a portable ECG platform, updating the motion 
 ## Project Media
 
 <div align="center">
-  <img src="../image%20%281%29.png" alt="Version 2 ECG PCB render and layout" width="48%">
-  <img src="../image%20%2814%29.png" alt="ECG v2 assembled PCB comparison" width="30%">
+  <img src="../image%20%281%29.png" alt="Version 2 ECG PCB render and layout" width="70%">
   <br>
-  <sub><b>Hardware iteration.</b> Version 2 nRF52 + dual ADS1299 + ICM20948 ECG wearable PCB design, shown with assembled board comparison.</sub>
+  <sub><b>PCB design.</b> Version 2 nRF52 + dual ADS1299 + ICM20948 ECG wearable showing updated motion-sensor integration.</sub>
   <br><br>
-  <img src="../image%20%283%29.png" alt="ECG and IMU GUI template" width="58%">
+  <img src="../image%20%2814%29.png" alt="ECG v2 assembled PCB comparison" width="70%">
+  <br>
+  <sub><b>Hardware iteration.</b> Assembled ECG v2 board shown alongside an earlier board for form-factor comparison.</sub>
+  <br><br>
+  <img src="../image%20%283%29.png" alt="ECG and IMU GUI template" width="70%">
   <br>
   <sub><b>Visualization.</b> Real-time Python GUI template for ECG and IMU data streamed over BLE.</sub>
 </div>
