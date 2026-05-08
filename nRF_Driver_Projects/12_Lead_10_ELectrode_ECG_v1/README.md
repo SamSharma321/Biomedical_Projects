@@ -29,7 +29,6 @@ BLE firmware for a research-grade ECG wearable prototype built around ADS1299 bi
 | <img src="image.png" alt="Assembled ECG PCB" width="320"> | Assembled ECG prototype PCB used for firmware bring-up and BLE streaming validation. |
 | <img src="image%20%283%29.png" alt="ECG GUI visualization" width="420"> | Live ECG visualization GUI showing multi-channel waveform plots from the wearable ECG data stream. |
 | <img src="image%20%284%29.png" alt="ECG firmware system architecture" width="420"> | System architecture for the ECG wearable: nRF52 BLE controller, dual ADS1299 front ends, and ICM20649 motion sensing. |
-| [ECG demo video](ECG_12_Lead.mp4) | Demo video showing the 12-lead ECG wearable system in operation. |
 | [Project poster](Poster_ECG_Wearable.pdf) | Poster summary for the wearable ECG system and design rationale. |
 
 ## Firmware Architecture
