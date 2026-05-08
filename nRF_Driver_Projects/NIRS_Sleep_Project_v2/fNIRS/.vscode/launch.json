@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/YeoLab/Git/YeoLab/nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/ADS1299_IMU_Prj",
+      "program": "c:/YeoLab/Git/YeoLab/nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/ADS1299_IMU_Prj/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
