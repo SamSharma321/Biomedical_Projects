@@ -21,9 +21,11 @@ Cleaner second-generation fNIRS firmware focused on AS7341 red/NIR optical sensi
 
 ## Project Media
 
-| Asset | Caption |
-| --- | --- |
-| <img src="image%20%2810%29.png" alt="fNIRS v2 PCB design" width="420"> | fNIRS v2 PCB design overview showing board dimensions, LED/sensor placement, routed layouts, and expected PCB thickness. |
+<div align="center">
+  <img src="image%20%2810%29.png" alt="fNIRS v2 PCB design" width="62%">
+  <br>
+  <sub><b>PCB design.</b> fNIRS v2 board overview showing dimensions, LED/sensor placement, routed layouts, and expected PCB thickness.</sub>
+</div>
 
 ## Firmware Architecture
 

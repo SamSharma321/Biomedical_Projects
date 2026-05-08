@@ -22,9 +22,11 @@ BLE firmware for a wearable EMG and motion-sensing prototype intended to support
 
 ## Project Media
 
-| Asset | Caption |
-| --- | --- |
-| <img src="../image%20%285%29.png" alt="EMG ICM20649 PCB design" width="420"> | PCB design for the EMG + ICM20649 robotic-hand control board, showing front-side placement, reverse-side routing, and routed layout. |
+<div align="center">
+  <img src="../image%20%285%29.png" alt="EMG ICM20649 PCB design" width="62%">
+  <br>
+  <sub><b>PCB design.</b> EMG + ICM20649 robotic-hand control board showing front-side placement, reverse-side routing, and routed layout.</sub>
+</div>
 
 ## Control Pipeline Role
 

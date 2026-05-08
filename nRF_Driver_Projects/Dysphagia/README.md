@@ -22,11 +22,14 @@ BLE firmware for a dysphagia research prototype combining ADS1291/2 biopotential
 
 ## Project Media
 
-| Asset | Caption |
-| --- | --- |
-| <img src="image%20%2813%29.png" alt="Dysphagia wearable prototype board" width="360"> | Dysphagia wearable prototype PCB with connected sensing leads for firmware and signal-acquisition testing. |
-| [BLE UUID visualizer demo](BLE%20UUID%20Visualizer%20%28Dynamic%20per%20UUID%29%202026-04-23%2016-44-32.mp4) | BLE GUI demo showing dynamic UUID-based visualization for streamed project data. |
-| [ICM live graph demo](ICM%20Device%201%20Live%20Graph%20%281CF1%29%20_%20Freq_%20177.3%20Hz%202026-04-23%2016-45-22.mp4) | IMU live graph demo for ICM device streaming and sample-rate visualization. |
+<div align="center">
+  <img src="image%20%2813%29.png" alt="Dysphagia wearable prototype board" width="42%">
+  <br>
+  <sub><b>Prototype hardware.</b> Dysphagia wearable PCB with connected sensing leads for firmware and signal-acquisition testing.</sub>
+</div>
+
+- [BLE UUID visualizer demo](BLE%20UUID%20Visualizer%20%28Dynamic%20per%20UUID%29%202026-04-23%2016-44-32.mp4) - BLE GUI demo showing dynamic UUID-based visualization for streamed project data.
+- [ICM live graph demo](ICM%20Device%201%20Live%20Graph%20%281CF1%29%20_%20Freq_%20177.3%20Hz%202026-04-23%2016-45-22.mp4) - IMU live graph demo for ICM device streaming and sample-rate visualization.
 
 ## Firmware Architecture
 

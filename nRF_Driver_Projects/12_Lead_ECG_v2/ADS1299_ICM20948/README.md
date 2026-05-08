@@ -22,12 +22,18 @@ Second-generation BLE firmware for a portable ECG platform, updating the motion 
 
 ## Project Media
 
-| Asset | Caption |
-| --- | --- |
-| <img src="../image%20%281%29.png" alt="Version 2 ECG PCB render and layout" width="420"> | Version 2 PCB design for the nRF52 + dual ADS1299 + ICM20948 ECG wearable, showing updated motion-sensor integration. |
-| <img src="../image%20%2814%29.png" alt="ECG v2 assembled PCB comparison" width="260"> | Assembled ECG v2 board alongside an earlier board, useful for comparing hardware iteration and form factor. |
-| <img src="../image%20%283%29.png" alt="ECG and IMU GUI template" width="420"> | Real-time Python GUI template for ECG and IMU visualization from BLE-streamed sensor data. |
-| [Project poster](../Poster_ECG_Wearable.pdf) | Poster summary for the wearable ECG system and design rationale. |
+<div align="center">
+  <img src="../image%20%281%29.png" alt="Version 2 ECG PCB render and layout" width="48%">
+  <img src="../image%20%2814%29.png" alt="ECG v2 assembled PCB comparison" width="30%">
+  <br>
+  <sub><b>Hardware iteration.</b> Version 2 nRF52 + dual ADS1299 + ICM20948 ECG wearable PCB design, shown with assembled board comparison.</sub>
+  <br><br>
+  <img src="../image%20%283%29.png" alt="ECG and IMU GUI template" width="58%">
+  <br>
+  <sub><b>Visualization.</b> Real-time Python GUI template for ECG and IMU data streamed over BLE.</sub>
+</div>
+
+[Project poster](../Poster_ECG_Wearable.pdf) - Poster summary for the wearable ECG system and design rationale.
 
 ## Firmware Architecture
 

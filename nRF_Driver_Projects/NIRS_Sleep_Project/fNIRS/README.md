@@ -22,17 +22,29 @@ BLE firmware for a sleep-oriented fNIRS wearable prototype using red/NIR optical
 
 ## Project Media
 
-| Asset | Caption |
-| --- | --- |
-| <img src="../image%20%2811%29.png" alt="fNIRS system block diagram" width="420"> | fNIRS system block diagram showing AS7341 optical sensors, nRF52832 BLE controller, ADS1299 support, LED drive, and BLE communication. |
-| <img src="../image%20%2817%29.png" alt="fNIRS PCB top render" width="360"> | Top-side PCB render for the fNIRS wearable board. |
-| <img src="../image%20%2818%29.png" alt="fNIRS PCB routed layout" width="360"> | Routed PCB layout for the fNIRS wearable board, including sensor and antenna placement constraints. |
-| <img src="../image%20%2819%29.png" alt="fNIRS firmware and sensor flow" width="420"> | Application and firmware flow for fNIRS sensing, BLE configuration, and sensor data movement. |
-| <img src="../image%20%282%29.png" alt="fNIRS GUI live view" width="420"> | Live GUI view for fNIRS streaming, including optical channel plots and timing/status traces. |
-| <img src="../image%20%2820%29.png" alt="fNIRS waveform plots" width="420"> | fNIRS optical waveform plots captured from streamed red/NIR sensor data. |
-| <img src="../image%20%2821%29.png" alt="Assembled fNIRS boards" width="420"> | Assembled fNIRS PCB prototypes used for hardware bring-up and firmware validation. |
-| [BLE UUID visualizer demo](../BLE%20UUID%20Visualizer%20%28Dynamic%20per%20UUID%29%202026-05-04%2015-26-50.mp4) | BLE GUI demo showing dynamic UUID-based visualization for fNIRS data streams. |
-| [ICM live graph demo](../ICM%20Device%201%20Live%20Graph%20%281CF1%29%20_%20Freq_%20177.3%20Hz%202026-04-23%2016-45-22.mp4) | IMU live graph demo used to validate live streaming and GUI plotting behavior. |
+<div align="center">
+  <img src="../image%20%2811%29.png" alt="fNIRS system block diagram" width="48%">
+  <img src="../image%20%2819%29.png" alt="fNIRS firmware and sensor flow" width="48%">
+  <br>
+  <sub><b>System design.</b> fNIRS hardware block diagram and firmware flow for AS7341 optical sensing, LED drive, BLE configuration, and data movement.</sub>
+  <br><br>
+  <img src="../image%20%2817%29.png" alt="fNIRS PCB top render" width="38%">
+  <img src="../image%20%2818%29.png" alt="fNIRS PCB routed layout" width="38%">
+  <br>
+  <sub><b>PCB design.</b> Top-side board render and routed layout for the fNIRS wearable, including sensor and antenna placement constraints.</sub>
+  <br><br>
+  <img src="../image%20%282%29.png" alt="fNIRS GUI live view" width="48%">
+  <img src="../image%20%2820%29.png" alt="fNIRS waveform plots" width="48%">
+  <br>
+  <sub><b>Visualization.</b> Live GUI view and optical waveform plots captured from streamed red/NIR sensor data.</sub>
+  <br><br>
+  <img src="../image%20%2821%29.png" alt="Assembled fNIRS boards" width="58%">
+  <br>
+  <sub><b>Assembled prototypes.</b> fNIRS PCB hardware used for board bring-up and firmware validation.</sub>
+</div>
+
+- [BLE UUID visualizer demo](../BLE%20UUID%20Visualizer%20%28Dynamic%20per%20UUID%29%202026-05-04%2015-26-50.mp4) - BLE GUI demo showing dynamic UUID-based visualization for fNIRS data streams.
+- [ICM live graph demo](../ICM%20Device%201%20Live%20Graph%20%281CF1%29%20_%20Freq_%20177.3%20Hz%202026-04-23%2016-45-22.mp4) - IMU live graph demo used to validate live streaming and GUI plotting behavior.
 
 ## Firmware Architecture
 
