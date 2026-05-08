@@ -1,0 +1,88 @@
+[BLE][2026-04-02 13:33:45.928] Auto-reconnect attempt to D4EBE6E4-8677-BDF6-7608-DB66479796E9
+[BLE][2026-04-02 13:33:54.033] Scan start requested
+[BLE][2026-04-02 13:34:05.302] Dialog result=0, name=None, address=None, has_client=False
+[BLE][2026-04-02 13:34:08.649] Scan start requested
+[BLE][2026-04-02 13:34:23.787] Disconnected callback fired by BLE backend
+[BLE][2026-04-02 13:34:23.794] Auto-reconnect attempt to D4EBE6E4-8677-BDF6-7608-DB66479796E9
+[BLE][2026-04-02 13:34:29.825] Dialog result=0, name=None, address=None, has_client=False
+[BLE][2026-04-02 13:34:32.241] Auto-reconnect attempt failed: 
+[BLE][2026-04-02 13:34:32.247] Traceback (most recent call last):
+  File "/opt/nordic/ncs/toolchains/322ac893fe/lib/python3.12/site-packages/bleak/backends/corebluetooth/CentralManagerDelegate.py", line 334, in connect
+    await future
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/samsharma/Work/git/YeoLab/Python Visualizer/BLE_Experiment/ECG_IMU/emg_protocol.py", line 1096, in _auto_reconnect_loop
+    await client.connect(timeout=8.0)
+  File "/opt/nordic/ncs/toolchains/322ac893fe/lib/python3.12/site-packages/bleak/__init__.py", line 620, in connect
+    await self._backend.connect(self._pair_before_connect, **kwargs)
+  File "/opt/nordic/ncs/toolchains/322ac893fe/lib/python3.12/site-packages/bleak/backends/corebluetooth/client.py", line 135, in connect
+    await manager.connect(self._peripheral, disconnect_callback, timeout=timeout)
+  File "/opt/nordic/ncs/toolchains/322ac893fe/lib/python3.12/site-packages/bleak/backends/corebluetooth/CentralManagerDelegate.py", line 333, in connect
+    async with async_timeout(timeout):
+  File "/opt/nordic/ncs/toolchains/322ac893fe/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+[BLE][2026-04-02 13:34:38.238] Auto-reconnect attempt to D4EBE6E4-8677-BDF6-7608-DB66479796E9
+[BLE][2026-04-02 13:34:40.714] Auto-reconnect link established
+[BLE][2026-04-02 13:34:40.714] _finish_connect start: name='EEG500PPG', address='D4EBE6E4-8677-BDF6-7608-DB66479796E9', from_auto_reconnect=True, client_present=True
+[BLE][2026-04-02 13:34:40.715] _finish_connect linked client: is_connected=True, address=D4EBE6E4-8677-BDF6-7608-DB66479796E9
+[BLE][2026-04-02 13:34:40.715] Service discovery returned 4 services
+[BLE][2026-04-02 13:34:40.715] Notify UUID count: 10
+[BLE][2026-04-02 13:34:40.715] Notify UUID: 0000bfee-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.715] Notify UUID: 0000eef1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.715] Notify UUID: 0000eef2-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.715] Notify UUID: 0000eef3-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] Notify UUID: 0000eef4-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] Notify UUID: 0000eef5-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] Notify UUID: 0000eef6-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] Notify UUID: 0000eef7-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] Notify UUID: 0000eef8-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] Notify UUID: 0000eff1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.716] BLE RSSI UUID detected: 0000bfee-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.717] Skipped notify UUIDs:
+[BLE][2026-04-02 13:34:40.717]   - 0000eeff-0000-1000-8000-00805f9b34fb: EEG config UUID
+[BLE][2026-04-02 13:34:40.717] start_notify_for_all_uuids: session=3, candidate_uuid_count=10
+[BLE][2026-04-02 13:34:40.820] start_notify OK (CCCD enabled): 0000bfee-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.865] start_notify OK (CCCD enabled): 0000eef1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.897] start_notify OK (CCCD enabled): 0000eef2-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:40.955] start_notify OK (CCCD enabled): 0000eef3-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:41.012] start_notify OK (CCCD enabled): 0000eef4-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:41.049] start_notify OK (CCCD enabled): 0000eef5-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:41.102] start_notify OK (CCCD enabled): 0000eef6-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:41.165] start_notify OK (CCCD enabled): 0000eef7-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:41.223] start_notify OK (CCCD enabled): 0000eef8-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:34:41.283] start_notify OK (CCCD enabled): 0000eff1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:56.113] Auto-reconnect attempt to D4EBE6E4-8677-BDF6-7608-DB66479796E9
+[BLE][2026-04-02 13:35:58.653] Auto-reconnect link established
+[BLE][2026-04-02 13:35:58.653] _finish_connect start: name='EEG500PPG', address='D4EBE6E4-8677-BDF6-7608-DB66479796E9', from_auto_reconnect=True, client_present=True
+[BLE][2026-04-02 13:35:58.654] _finish_connect linked client: is_connected=True, address=D4EBE6E4-8677-BDF6-7608-DB66479796E9
+[BLE][2026-04-02 13:35:58.655] Service discovery returned 4 services
+[BLE][2026-04-02 13:35:58.655] Notify UUID count: 10
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000bfee-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef2-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef3-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef4-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef5-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef6-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.655] Notify UUID: 0000eef7-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.656] Notify UUID: 0000eef8-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.656] Notify UUID: 0000eff1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.656] BLE RSSI UUID detected: 0000bfee-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.656] Skipped notify UUIDs:
+[BLE][2026-04-02 13:35:58.656]   - 0000eeff-0000-1000-8000-00805f9b34fb: EEG config UUID
+[BLE][2026-04-02 13:35:58.656] start_notify_for_all_uuids: session=2, candidate_uuid_count=10
+[BLE][2026-04-02 13:35:58.855] start_notify OK (CCCD enabled): 0000bfee-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:58.893] start_notify OK (CCCD enabled): 0000eef1-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.022] start_notify OK (CCCD enabled): 0000eef2-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.075] start_notify OK (CCCD enabled): 0000eef3-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.133] start_notify OK (CCCD enabled): 0000eef4-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.193] start_notify OK (CCCD enabled): 0000eef5-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.255] start_notify OK (CCCD enabled): 0000eef6-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.374] start_notify OK (CCCD enabled): 0000eef7-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.434] start_notify OK (CCCD enabled): 0000eef8-0000-1000-8000-00805f9b34fb
+[BLE][2026-04-02 13:35:59.492] start_notify OK (CCCD enabled): 0000eff1-0000-1000-8000-00805f9b34fb

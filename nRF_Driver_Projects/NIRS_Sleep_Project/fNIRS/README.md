@@ -23,31 +23,31 @@ BLE firmware for a sleep-oriented fNIRS wearable prototype using red/NIR optical
 ## Project Media
 
 <div align="center">
-  <img src="../image%20%2811%29.png" alt="fNIRS system block diagram" width="70%">
+  <img src="image%20%2811%29.png" alt="fNIRS system block diagram" width="70%">
   <br>
   <sub><b>System block diagram.</b> AS7341 optical sensors, nRF52832 BLE controller, ADS1299 support, LED drive, and BLE communication.</sub>
   <br><br>
-  <img src="../image%20%2819%29.png" alt="fNIRS firmware and sensor flow" width="70%">
+  <img src="image%20%2819%29.png" alt="fNIRS firmware and sensor flow" width="70%">
   <br>
   <sub><b>Firmware flow.</b> fNIRS sensing, BLE configuration, and sensor data movement through the application.</sub>
   <br><br>
-  <img src="../image%20%2817%29.png" alt="fNIRS PCB top render" width="70%">
+  <img src="image%20%2817%29.png" alt="fNIRS PCB top render" width="70%">
   <br>
   <sub><b>PCB top render.</b> Top-side board view for the fNIRS wearable.</sub>
   <br><br>
-  <img src="../image%20%2818%29.png" alt="fNIRS PCB routed layout" width="70%">
+  <img src="image%20%2818%29.png" alt="fNIRS PCB routed layout" width="70%">
   <br>
   <sub><b>PCB routed layout.</b> Routed fNIRS board layout including sensor and antenna placement constraints.</sub>
   <br><br>
-  <img src="../image%20%282%29.png" alt="fNIRS GUI live view" width="70%">
+  <img src="image%20%282%29.png" alt="fNIRS GUI live view" width="70%">
   <br>
   <sub><b>GUI live view.</b> Live fNIRS streaming interface with optical channel plots and timing/status traces.</sub>
   <br><br>
-  <img src="../image%20%2820%29.png" alt="fNIRS waveform plots" width="70%">
+  <img src="image%20%2820%29.png" alt="fNIRS waveform plots" width="70%">
   <br>
   <sub><b>Optical waveforms.</b> Red/NIR sensor data captured from streamed fNIRS measurements.</sub>
   <br><br>
-  <img src="../image%20%2821%29.png" alt="Assembled fNIRS boards" width="70%">
+  <img src="image%20%2821%29.png" alt="Assembled fNIRS boards" width="70%">
   <br>
   <sub><b>Assembled prototypes.</b> fNIRS PCB hardware used for board bring-up and firmware validation.</sub>
 </div>

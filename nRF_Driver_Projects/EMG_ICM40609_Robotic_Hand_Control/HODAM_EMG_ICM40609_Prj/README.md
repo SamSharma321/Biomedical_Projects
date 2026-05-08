@@ -22,7 +22,7 @@ Updated robotic-hand control firmware using ADS1299 biopotential acquisition wit
 ## Project Media
 
 <div align="center">
-  <img src="../image.png" alt="EMG ICM40609 PCB design" width="70%">
+  <img src="image.png" alt="EMG ICM40609 PCB design" width="70%">
   <br>
   <sub><b>PCB design.</b> EMG + ICM40609 robotic-hand control board showing component placement, board back side, and routed layout.</sub>
 </div>

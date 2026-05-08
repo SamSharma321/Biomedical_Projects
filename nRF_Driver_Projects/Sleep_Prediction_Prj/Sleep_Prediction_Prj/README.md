@@ -23,19 +23,19 @@ BLE firmware for a sleep-monitoring prototype combining biopotential, motion, an
 ## Project Media
 
 <div align="center">
-  <img src="../image%20%281%29.jpeg" alt="Sleep prediction assembled PCB front" width="70%">
+  <img src="image%20%281%29.jpeg" alt="Sleep prediction assembled PCB front" width="70%">
   <br>
   <sub><b>Assembled hardware.</b> Sleep-prediction wearable PCB showing the nRF52 controller and sensing hardware.</sub>
   <br><br>
-  <img src="../image.jpeg" alt="Sleep prediction optical sensor board" width="70%">
+  <img src="image.jpeg" alt="Sleep prediction optical sensor board" width="70%">
   <br>
   <sub><b>Optical sensor board.</b> MAX30102 sensing area and wiring on the sleep-prediction prototype.</sub>
   <br><br>
-  <img src="../image%20%287%29.png" alt="Sleep prediction PCB render" width="70%">
+  <img src="image%20%287%29.png" alt="Sleep prediction PCB render" width="70%">
   <br>
   <sub><b>PCB render.</b> Board render for the multimodal sleep-prediction wearable.</sub>
   <br><br>
-  <img src="../image%20%288%29.png" alt="Sleep prediction routed PCB layout" width="70%">
+  <img src="image%20%288%29.png" alt="Sleep prediction routed PCB layout" width="70%">
   <br>
   <sub><b>PCB routed layout.</b> Routed layout for the sleep-prediction wearable board.</sub>
 </div>
